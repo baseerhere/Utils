@@ -1,0 +1,17 @@
+﻿.popupWindow {
+    position: fixed;
+    z-index: 1000;
+    background-color:transparent;
+}
+
+.popupWindow-Shadow {
+    position: fixed;
+    z-index: 999;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.popupWindow-iFrame {
+    overflow: auto;
+    margin: 0px;
+}
